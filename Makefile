@@ -1,4 +1,4 @@
-CFLAGS = -std=c99 -Wall -Wextra -Werror proj2.c -o proj2
+CFLAGS = -std=c99 -Wall -Wextra -Werror proj2.c -o proj2 -lm
 
 comp:
 	gcc $(CFLAGS)
